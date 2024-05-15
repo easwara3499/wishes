@@ -1,0 +1,189 @@
+/* App.css */
+
+.greeting {
+  background-color: #ffcc00; /* Yellow background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  text-align: center;
+}
+
+.greeting h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  color: #333; /* Black color for text */
+  margin-bottom: 10px;
+}
+
+.greeting p {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333; /* Black color for text */
+  margin-bottom: 5px;
+}
+/* App.css */
+
+/* Add styles for the birthday frame */
+.birthday-frame {
+  width: 300px; /* Adjust width of the frame */
+  height: 300px; /* Adjust height of the frame */
+  border: 10px solid #cf0fff; /* Purple border */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+  text-align: center; /* Center content horizontally */
+  position: relative; /* Ensure relative positioning for absolute positioning of image */
+  margin: 0 auto; /* Center the frame horizontally */
+  overflow: hidden; /* Ensure content inside the frame does not overflow */
+}
+
+/* Add styles for the celebrate image */
+.celebrate-image {
+  max-width: 100%; /* Ensure the image fits inside the frame */
+  max-height: 100%; /* Ensure the image fits inside the frame */
+  position: absolute; /* Position the image absolutely */
+  top: 50%; /* Position the image at the center vertically */
+  left: 50%; /* Position the image at the center horizontally */
+  transform: translate(-50%, -50%); /* Center the image vertically and horizontally */
+  border-radius: 10px; /* Rounded corners for the image */
+}
+.centered-image {
+  display: flex;
+  justify-content: center;
+}
+
+.celebrate-image {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+}
+
+.emoji-scroll {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.emoji-scroll p {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* App.css */
+
+.greeting {
+  /* Existing styles */
+  /* Add the following styles to ensure the greeting div is a flex container */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align items vertically and push footer to the bottom */
+}
+
+.greeting h1 {
+  /* Existing styles */
+}
+
+.greeting p {
+  /* Existing styles */
+}
+
+.centered-image {
+  /* Existing styles */
+  margin-top: auto; /* Push the image to the top */
+}
+
+.footer {
+  /* Existing styles */
+}
+
+.input-container {
+  margin-top: 20px; /* Add space between image and input container */
+  text-align: center; /* Center the input container */
+}
+
+.input-container input {
+  padding: 10px; /* Add padding to the input field */
+  margin-right: 10px; /* Add space between input field and button */
+}
+
+.input-container button {
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.input-container button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+/* App.css */
+
+.greeting {
+  /* Existing styles */
+  display: flex; /* Make the greeting div a flex container */
+  flex-direction: column; /* Stack children vertically */
+}
+
+.greeting h1 {
+  /* Existing styles */
+}
+
+.greeting p {
+  /* Existing styles */
+}
+
+.centered-image {
+  /* Existing styles */
+  margin-top: auto; /* Push the image to the top */
+}
+
+.footer {
+  /* Existing styles */
+}
+
+.input-container {
+  /* Add margin to create space between the image and the input container */
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center; /* Center the input container */
+}
+
+.input-container input {
+  /* Existing styles */
+  padding: 10px; /* Add padding to the input field */
+  margin-right: 10px; /* Add space between input field and button */
+}
+
+.input-container button {
+  /* Existing styles */
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.input-container button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+.input-container {
+  /* Add margin to create space between the image and the input container */
+  margin-top: auto; /* Push the input container to the bottom */
+  margin-right: 20px; /* Add space between the input container and the right edge */
+  text-align: right; /* Align the input container to the right */
+}
+
